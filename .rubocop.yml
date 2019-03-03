@@ -51,6 +51,9 @@ Layout/ClassStructure:
     - protected_methods
     - private_methods
 
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
 Metrics:
   Enabled: true
 
@@ -98,9 +101,6 @@ Style/Documentation:
 
 Style/DocumentationMethod:
   Enabled: false
-
-Style/DotPosition:
-  EnforcedStyle: trailing
 
 Style/FrozenStringLiteralComment:
   EnforcedStyle: when_needed
