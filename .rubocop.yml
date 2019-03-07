@@ -54,6 +54,9 @@ Layout/ClassStructure:
 Layout/DotPosition:
   EnforcedStyle: trailing
 
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: false
+
 Metrics:
   Enabled: true
 
