@@ -99,6 +99,9 @@ Rails/TimeZone:
   Enabled: true
   EnforcedStyle: flexible
 
+Style/BlockComments:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
@@ -111,6 +114,9 @@ Style/FrozenStringLiteralComment:
 
 # Technically this performs better, and I got no problem with it.
 Style/ParallelAssignment:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
   Enabled: false
 
 Style/WhenThen:
