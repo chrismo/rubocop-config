@@ -121,3 +121,6 @@ Style/TrailingCommaInArrayLiteral:
 
 Style/WhenThen:
   Enabled: true
+
+Style/WordArray:
+  Enabled: false
