@@ -116,6 +116,9 @@ Style/FrozenStringLiteralComment:
 Style/ParallelAssignment:
   Enabled: false
 
+Style/RedundantSelf:
+  Enabled: false
+
 Style/TrailingCommaInArrayLiteral:
   Enabled: false
 
