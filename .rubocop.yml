@@ -109,8 +109,11 @@ Style/DocumentationMethod:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
-  EnforcedStyle: when_needed
+  EnforcedStyle: always
   Enabled: true
+
+Style/GuardClause:
+  Enabled: false
 
 Style/MultilineBlockChain:
   Enabled: false
