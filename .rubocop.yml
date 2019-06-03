@@ -1,5 +1,7 @@
 require:
-#  - rubocop_lineup
+  - rubocop-performance
+  - rubocop-rails
+  # - rubocop_lineup
 
 AllCops:
   TargetRubyVersion: 2.5
@@ -54,6 +56,9 @@ Layout/ClassStructure:
 Layout/DotPosition:
   EnforcedStyle: trailing
 
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
 
@@ -87,6 +92,9 @@ Metrics/LineLength:
 Metrics/MethodLength:
   CountComments: false  # count full line comments?
   Max: 15
+
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
 
 Rails/Date:
   Enabled: true
@@ -126,6 +134,9 @@ Style/RedundantSelf:
   Enabled: false
 
 Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
   Enabled: false
 
 Style/WhenThen:
